@@ -1,2 +1,2 @@
-# Raspberry_Pi
-This folder is for all things Raspberry Pi
+# Projects (Raspberry_Pi)
+For all things Rasp Pi projects 
