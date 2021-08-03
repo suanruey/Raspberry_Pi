@@ -1,0 +1,20 @@
+The purpose of the temperature grab project is to, get the temperature date from Raspberry Pi Sensehat.
+
+The database used in the Raspberry pi must use the LAMP concept.
+
+The things to be used are, in Linux platform, Apache web server in browser, Maria Database SQL, and Php Admin for front-end data display.
+
+The table parameters are as follows:
+
+No.	Name	  Data      Type	  Length	                Default	                        Attributes	                  Index	    A_I
+1	  Record	Int	      7			                                                                                        Unique	   (Tick the box)
+2	  TempID	Int	      4	                              As Defined: <Your index number>			
+3	  Temp	  Float					
+4	  Date	  TimeStamp	                                CURRENT_TIMESTAMP	              on update CURRENT_TIMESTAMP		
+5	  Status	varchar	  20				
+
+Mission:
+Grab temp data from Raspberry Pi SenseHat at every 5 seconds,
+and the database is supposed to display, 'Too Hot' under the 'Status' tab.
+
+Display the all the necessary data, as required in the above table
